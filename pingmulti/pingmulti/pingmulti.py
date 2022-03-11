@@ -11,5 +11,5 @@ with open('hosts.txt') as file:
     
         os.system('ping -n 2 {}' .format(ip))
         time.sleep(3)
-        print('=+'*30)
+        print('=+' * 30)
     
